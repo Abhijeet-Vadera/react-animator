@@ -1,0 +1,24 @@
+{
+  "name": "react-animators",
+  "version": "1.0.0",
+  "description": "A collection of React animation components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "animations"
+  ],
+  "author": "abhijeet_vadera",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "csstype": "^3.1.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
