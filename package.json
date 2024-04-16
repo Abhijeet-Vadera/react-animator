@@ -20,5 +20,9 @@
   },
   "scripts": {
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhijeet-Vadera/react-animators"
   }
 }
