@@ -1,2 +1,2 @@
-export { default as FadeIn } from './FadeIn';
+export { default as Animator } from './animator';
 // Export other animation components here if needed

@@ -41,17 +41,35 @@ export default App;
 
 ## Available Animations
 
-- FadeIn: Fade in animation.
-- Bounce: Bounce animation.
-- Zoom: Zoom animation.
+- **FadeIn**: Fade in animation where the element gradually becomes visible by increasing its opacity.
+- **FadeOut**: Fade out animation where the element gradually becomes invisible by decreasing its opacity.
+- **Bounce**: Bounce animation where the element scales up and down, creating a bouncing effect.
+- **ZoomIn**: Zoom in animation where the element gradually scales up in size.
+- **ZoomOut**: Zoom out animation where the element gradually scales down in size.
+- **RotateClockwise**: Rotate clockwise animation where the element rotates in a clockwise direction.
+- **RotateAntiClockwise**: Rotate anti-clockwise animation where the element rotates in an anti-clockwise direction.
+- **SlideLeft**: Slide left animation where the element moves horizontally to the left.
+- **SlideRight**: Slide right animation where the element moves horizontally to the right.
+- **SlideUp**: Slide up animation where the element moves vertically upwards.
+- **SlideDown**: Slide down animation where the element moves vertically downwards.
+- **Pulse**: Pulse animation where the element scales up and down rhythmically, creating a pulsating effect.
+- **Flash**: Flash animation where the element quickly fades in and out, creating a flashing effect.
+- **Shake**: Shake animation where the element shakes horizontally back and forth.
+- **FlipX**: Flip on X-axis animation where the element flips horizontally.
+- **FlipY**: Flip on Y-axis animation where the element flips vertically.
+- **RollIn**: Roll in animation where the element rolls into view from the side.
+- **RollOut**: Roll out animation where the element rolls out of view to the side.
+
 
 ## Props
 
-Each animation component accepts the following props:
+| Name          | Type          | Description                                     |
+|---------------|---------------|-------------------------------------------------|
+| animationType | AnimationType | **Required:** The type of animation to apply. Supported types are: 'fadeIn', 'fadeOut', 'bounce', 'zoomIn', 'zoomOut', 'rotateClockwise', 'rotateAntiClockwise', 'slideLeft', 'slideRight', 'slideUp', 'slideDown', 'pulse', 'flash', 'shake', 'flipX', 'flipY', 'rollIn', 'rollOut'. |
+| delay         | number        | Optional delay before the animation starts (ms).|
+| duration      | number        | Optional duration of the animation (ms).        |
 
-- children: ReactNode - The content to animate.
-- duration: number - The duration of the animation in milliseconds (default: 1000ms).
-- delay: number - The delay before the animation starts in milliseconds (default: 0ms).
+
 
 ## License
 

@@ -1,15 +1,34 @@
-// File: types/index.d.ts
+declare module 'react-animations' {
+  import { ReactNode } from 'react';
 
-declare module 'react-animators' {
-  import { CSSProperties, ReactNode } from 'react';
+  // Define supported animation types
+  type AnimationType = 'fadeIn' |
+    'fadeOut' |
+    'bounce' |
+    'zoomIn' |
+    'zoomOut' |
+    'rotateClockwise' |
+    'rotateAntiClockwise' |
+    'slideLeft' |
+    'slideRight' |
+    'slideUp' |
+    'slideDown' |
+    'pulse' |
+    'flash' |
+    'shake' |
+    'flipX' |
+    'flipY' |
+    'rollIn' |
+    'rollOut';
 
-  // Type definition for a CSS animation object
-  interface AnimationObject {
-    [key: string]: CSSProperties;
+  // Type definition for the AnimatorProps
+  interface AnimatorProps {
+    children: ReactNode;
+    animationType: AnimationType;
+    delay?: number; // Optional delay in milliseconds
+    duration?: number; // Optional duration in milliseconds
   }
 
-  // Type definition for the FadeIn animation component
-  export const FadeIn: React.FC<{ children: ReactNode; animation?: AnimationObject }>;
-
-  // Add type definitions for other animation components here if needed
+  // Type definition for the Animator component
+  export const Animator: React.FC<AnimatorProps>;
 }
