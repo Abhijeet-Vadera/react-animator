@@ -1,6 +1,6 @@
 {
   "name": "react-animators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of React animation components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

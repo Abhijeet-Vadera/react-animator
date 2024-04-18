@@ -1,6 +1,6 @@
 # React Animators
 
-[![npm version](https://badge.fury.io/js/react-animators-library.svg)](https://badge.fury.io/js/react-animators-library)
+[![npm version](https://badge.fury.io/js/react-animators.svg)](https://badge.fury.io/js/react-animators)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -60,16 +60,13 @@ export default App;
 - **RollIn**: Roll in animation where the element rolls into view from the side.
 - **RollOut**: Roll out animation where the element rolls out of view to the side.
 
-
 ## Props
 
-| Name          | Type          | Description                                     |
-|---------------|---------------|-------------------------------------------------|
+| Name          | Type          | Description                                                                                                                                                                                                                                                                           |
+| ------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | animationType | AnimationType | **Required:** The type of animation to apply. Supported types are: 'fadeIn', 'fadeOut', 'bounce', 'zoomIn', 'zoomOut', 'rotateClockwise', 'rotateAntiClockwise', 'slideLeft', 'slideRight', 'slideUp', 'slideDown', 'pulse', 'flash', 'shake', 'flipX', 'flipY', 'rollIn', 'rollOut'. |
-| delay         | number        | Optional delay before the animation starts (ms).|
-| duration      | number        | Optional duration of the animation (ms).        |
-
-
+| delay         | number        | Optional delay before the animation starts (ms).                                                                                                                                                                                                                                      |
+| duration      | number        | Optional duration of the animation (ms).                                                                                                                                                                                                                                              |
 
 ## License
 
